@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<script>
+//Declaring class
+var emp=class
+{
+constructor(id ,name){
+	this.id=id;
+	this.name=name;
+}	
+//Declaring method
+detail(){
+	document.write(this.id+""+this.name+"<br>")
+}
+}
+//passing object to a variable 
+var e1=new emp(101,"sanada");
+var e2=new emp(102,"susada");
+e1.detail(); //calling method
+e2.detail();
+</script>
+</html>
